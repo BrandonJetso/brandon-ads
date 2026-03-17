@@ -10,21 +10,34 @@ const { ad } = Astro.props;
 const brand = ad.brand || 'HK Brand';
 const score = Number(ad.score);
 const sc = score >= 8 ? 'high' : score >= 5 ? 'mid' : 'low';
-const adLibraryUrl = `https://www.facebook.com/ads/library/?id=${ad.ad_id}`;
+const adLibraryUrl = ad.ad_library_url || `https://www.facebook.com/ads/library/?id=${ad.ad_id}`;
 ---
 <BaseLayout title={ad.title || brand} description={ad.offer}>
   <main class="detail-wrap">
     <a href="/" class="back">← Back to all ads</a>
     <div class="detail-card">
+
       <div class="dh">
         {ad.logo
           ? <img src={ad.logo} alt={brand} class="dlogo" />
           : <div class="dlogo-ph">{brand[0]}</div>}
         <div>
           <h1 class="dbrand">{brand}</h1>
-          <span class={`badge ${sc}`}>Score {ad.score}/10</span>
+          <div style="display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;margin-top:.4rem;">
+            <span class={`badge ${sc}`}>Score {ad.score}/10</span>
+            {ad.category && <span class="category-tag">{ad.category}</span>}
+          </div>
         </div>
       </div>
+
+      {(ad.video_url || ad.image_url) && (
+        <div class="media-block">
+          {ad.video_url
+            ? <video src={ad.video_url} controls playsinline class="media-full" />
+            : <img src={ad.image_url} alt={ad.title || brand} class="media-full" />}
+        </div>
+      )}
+
       <div class="db">
         <h2 class="dtitle">{ad.title}</h2>
         {ad.offer && <p class="doffer">{ad.offer}</p>}
@@ -32,11 +45,12 @@ const adLibraryUrl = `https://www.facebook.com/ads/library/?id=${ad.ad_id}`;
           <p class="dvalid"><span class="label">Valid until</span> <strong>{ad.valid_until}</strong></p>
         )}
       </div>
+
       <div class="da">
-        <a href={`brandon://ad/${ad.ad_id}`} class="btn primary">View in BrandON App →</a>
-        <a href={adLibraryUrl} target="_blank" rel="noopener" class="btn secondary">Meta Ad Library ↗</a>
+        <a href={adLibraryUrl} target="_blank" rel="noopener" class="btn primary">View on Meta Ad Library ↗</a>
         <a href={`/zh/${ad.ad_id}`} class="btn ghost">中文版</a>
       </div>
+
     </div>
   </main>
 </BaseLayout>
@@ -49,11 +63,14 @@ const adLibraryUrl = `https://www.facebook.com/ads/library/?id=${ad.ad_id}`;
   .dh { display:flex; align-items:center; gap:1rem; padding:1.5rem; border-bottom:1px solid var(--border); }
   .dlogo { width:64px; height:64px; border-radius:12px; object-fit:cover; flex-shrink:0; }
   .dlogo-ph { width:64px; height:64px; border-radius:12px; background:var(--brand); color:#fff; display:flex; align-items:center; justify-content:center; font-size:1.75rem; font-weight:700; flex-shrink:0; }
-  .dbrand { font-size:1.25rem; font-weight:700; margin-bottom:.4rem; }
+  .dbrand { font-size:1.25rem; font-weight:700; }
   .badge { font-size:.8rem; font-weight:700; padding:.3rem .75rem; border-radius:999px; }
   .badge.high { background:#DCFCE7; color:#166534; }
   .badge.mid  { background:#FEF9C3; color:#854D0E; }
   .badge.low  { background:#FEE2E2; color:#991B1B; }
+  .category-tag { display:inline-block; background:#EEF2FF; color:#4338CA; font-size:.7rem; font-weight:600; padding:.2rem .6rem; border-radius:999px; text-transform:uppercase; letter-spacing:.04em; }
+  .media-block { width:100%; background:#f3f4f6; border-bottom:1px solid var(--border); }
+  .media-full { width:100%; max-height:420px; object-fit:contain; display:block; }
   .db { padding:1.5rem; display:flex; flex-direction:column; gap:1rem; border-bottom:1px solid var(--border); }
   .dtitle { font-size:1.1rem; font-weight:600; line-height:1.5; }
   .doffer { font-size:1rem; color:var(--muted); line-height:1.6; }
@@ -62,9 +79,7 @@ const adLibraryUrl = `https://www.facebook.com/ads/library/?id=${ad.ad_id}`;
   .da { padding:1.25rem 1.5rem; display:flex; flex-wrap:wrap; gap:.75rem; }
   .btn { display:inline-flex; align-items:center; padding:.6rem 1.1rem; border-radius:8px; font-size:.875rem; font-weight:600; transition:all .15s; }
   .btn.primary { background:var(--brand); color:#fff; }
-  .btn.primary:hover { background:var(--brand-dark); }
-  .btn.secondary { background:#F3F4F6; color:var(--text); }
-  .btn.secondary:hover { background:#E5E7EB; }
+  .btn.primary:hover { opacity:.9; }
   .btn.ghost { border:1px solid var(--border); color:var(--muted); }
   .btn.ghost:hover { border-color:var(--brand); color:var(--brand); }
 </style>
