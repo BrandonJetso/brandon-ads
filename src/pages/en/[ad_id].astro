@@ -1,0 +1,82 @@
+---
+import adsData from "../../data/ads.json";
+
+export function getStaticPaths() {
+    return adsData.map((ad) => ({
+        params: { ad_id: ad.ad_id },
+        props: { ad },
+    }));
+}
+
+const { ad } = Astro.props;
+const images = JSON.parse(ad.image_urls || "[]");
+const firstImage = images[0] || "";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{ad.brand_name} – {ad.offer_summary_en}</title>
+        <meta name="description" content={ad.offer_summary_en} />
+        <script
+            type="application/ld+json"
+            set:html={JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Offer",
+                name: ad.offer_summary_en,
+                description: ad.raw_text,
+                seller: { "@type": "Organization", name: ad.brand_name },
+                validThrough: ad.valid_until || undefined,
+                url: ad.link_url || ad.ad_library_url,
+            })}
+        />
+    </head>
+    <body>
+        <header>
+            <img
+                src={ad.brand_logo_url}
+                alt={ad.brand_name}
+                width="60"
+                height="60"
+            />
+            <h1>{ad.brand_name}</h1>
+        </header>
+        <main>
+            <span>{ad.offer_type?.replace("_", " ")}</span>
+            <h2>{ad.offer_summary_en}</h2>
+            {
+                firstImage && (
+                    <img
+                        src={firstImage}
+                        alt={ad.offer_summary_en}
+                        style="max-width:100%"
+                    />
+                )
+            }
+            <p>{ad.raw_text}</p>
+            {
+                ad.valid_until && (
+                    <p>
+                        Valid until: <strong>{ad.valid_until}</strong>
+                    </p>
+                )
+            }
+            {
+                ad.link_url && (
+                    <a href={ad.link_url} target="_blank">
+                        View Offer →
+                    </a>
+                )
+            }
+            <br />
+            <a href={`brandon://ad/${ad.ad_id}`}>View in BrandON App →</a>
+        </main>
+        <footer>
+            <a href={`/zh/${ad.ad_id}`}>中文版</a> ·
+            <a href={ad.ad_library_url} target="_blank"
+                >Source: Meta Ad Library</a
+            >
+        </footer>
+    </body>
+</html>

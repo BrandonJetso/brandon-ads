@@ -1,17 +1,30 @@
 ---
-
+import adsData from "../data/ads.json";
 ---
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<meta charset="UTF-8" />
+		<title>BrandON – HK Ad Intelligence</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>Latest HK Promotions</h1>
+		<ul>
+			{
+				adsData.map((ad) => (
+					<li>
+						<img
+							src={ad.brand_logo_url}
+							width="30"
+							height="30"
+							alt={ad.brand_name}
+						/>
+						<a href={`/en/${ad.ad_id}`}>
+							{ad.brand_name} – {ad.offer_summary_en}
+						</a>
+					</li>
+				))
+			}
+		</ul>
 	</body>
 </html>

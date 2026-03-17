@@ -1,0 +1,68 @@
+---
+import adsData from "../../data/ads.json";
+
+export function getStaticPaths() {
+    return adsData.map((ad) => ({
+        params: { ad_id: ad.ad_id },
+        props: { ad },
+    }));
+}
+
+const { ad } = Astro.props;
+const images = JSON.parse(ad.image_urls || "[]");
+const firstImage = images[0] || "";
+---
+
+<html lang="zh-HK">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{ad.brand_name} – {ad.offer_summary_zh}</title>
+        <meta name="description" content={ad.offer_summary_zh} />
+    </head>
+    <body>
+        <header>
+            <img
+                src={ad.brand_logo_url}
+                alt={ad.brand_name}
+                width="60"
+                height="60"
+            />
+            <h1>{ad.brand_name}</h1>
+        </header>
+        <main>
+            <h2>{ad.offer_summary_zh}</h2>
+            {
+                firstImage && (
+                    <img
+                        src={firstImage}
+                        alt={ad.offer_summary_zh}
+                        style="max-width:100%"
+                    />
+                )
+            }
+            <p>{ad.raw_text}</p>
+            {
+                ad.valid_until && (
+                    <p>
+                        有效期至：<strong>{ad.valid_until}</strong>
+                    </p>
+                )
+            }
+            {
+                ad.link_url && (
+                    <a href={ad.link_url} target="_blank">
+                        查看優惠 →
+                    </a>
+                )
+            }
+            <br />
+            <a href={`brandon://ad/${ad.ad_id}`}>在 BrandON App 查看 →</a>
+        </main>
+        <footer>
+            <a href={`/en/${ad.ad_id}`}>English</a> ·
+            <a href={ad.ad_library_url} target="_blank">來源：Meta 廣告資料庫</a
+            >
+        </footer>
+    </body>
+</html>
