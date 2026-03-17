@@ -1,35 +1,15 @@
 [
   {
-    "ad_id": "test001",
-    "brand": "TestBrand",
-    "title": "Test Ad"
-  },
-  {
-    "ad_id": "998268472533337",
-    "brand_name": "3HK",
-    "brand_logo_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/452917820_890021639826485_3918444055997368274_n.jpg?stp=dst-jpg_s148x148_tt6&_nc_cat=102&ccb=1-7&_nc_sid=418b77&_nc_ohc=txVxEfd3gNgQ7kNvwHm3EjI&_nc_zt=24&_nc_ht=scontent-atl3-2.xx.fbcdn.net&oh=00_AfytKqXsrqRZmvsRtMNdRcpY90j857ah6MpGEmvJV3uypw&oe=69BD8F8D",
-    "offer_summary_en": "Get Samsung Galaxy S26 from $0 with selected world plan",
-    "offer_summary_zh": "配合指定世界PLAN，低至$0入手Samsung Galaxy S26",
-    "offer_type": "bundle",
-    "offer_score": 9,
-    "language": "zh",
-    "discount_value": 0,
-    "discount_unit": "hkd",
-    "valid_until": "2026-03-31",
-    "brand_category": "telecom",
-    "raw_text": "Samsung Galaxy S26 low as $0 with world plan.",
-    "image_urls": "[]",
-    "video_urls": "[]",
-    "cta_text": "",
-    "link_url": "https://bit.ly/36A3yAS",
-    "publisher_platform": "FACEBOOK",
-    "start_date": "2026-03-11 07:00:00",
-    "end_date": "2026-03-31 07:00:00",
-    "is_active": true,
-    "ad_library_url": "https://www.facebook.com/ads/library/?id=998268472533337",
-    "status": "pending_review",
-    "scraped_at": "2026-03-17",
-    "display_format": "IMAGE",
-    "is_carousel": false
+    "ad_id": "2475196409562843",
+    "brand": "",
+    "title": "5G data roaming package with free 30-day travel insurance for Asia-Pacific destinations.",
+    "offer": "5G黃金漫遊數據流量組合送免費30日旅遊保險。",
+    "lang": "bilingual",
+    "score": "10",
+    "logo": "https://scontent.frke1-1.fna.fbcdn.net/v/t39.35426-6/651164289_950762381041452_6831660566194127470_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=AO8pVjim99YQ7kNvwGI9bnt&_nc_oc=Adm33vkteR8-inBxBEovdWU4OsMZg7T_W4nZG65EDEE8b7wedqczUVE6caWL_KcIGnA&_nc_zt=14&_nc_ht=scontent.frke1-1.fna&_nc_gid=v9fqlzOmFNusODmI7py0wA&_nc_ss=8&oh=00_Afw3Vk_wL9U6IQITy6zY04pw0f9sN_QtYs9UVLPgDoiXNg&oe=69BD7F1E",
+    "valid_until": ""
+  }
+]BDA9DC",
+    "valid_until": "2026-03-31"
   }
 ]
