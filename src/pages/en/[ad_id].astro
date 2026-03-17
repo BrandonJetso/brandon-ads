@@ -1,82 +1,70 @@
 ---
-import adsData from "../../data/ads.json";
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import adsData from '../../data/ads.json';
 
 export function getStaticPaths() {
-    return adsData.map((ad) => ({
-        params: { ad_id: ad.ad_id },
-        props: { ad },
-    }));
+  return adsData.map(ad => ({ params: { ad_id: ad.ad_id }, props: { ad } }));
 }
 
 const { ad } = Astro.props;
-const images = JSON.parse(ad.image_urls || "[]");
-const firstImage = images[0] || "";
+const brand = ad.brand || 'HK Brand';
+const score = Number(ad.score);
+const sc = score >= 8 ? 'high' : score >= 5 ? 'mid' : 'low';
+const adLibraryUrl = `https://www.facebook.com/ads/library/?id=${ad.ad_id}`;
 ---
+<BaseLayout title={ad.title || brand} description={ad.offer}>
+  <main class="detail-wrap">
+    <a href="/" class="back">← Back to all ads</a>
+    <div class="detail-card">
+      <div class="dh">
+        {ad.logo
+          ? <img src={ad.logo} alt={brand} class="dlogo" />
+          : <div class="dlogo-ph">{brand[0]}</div>}
+        <div>
+          <h1 class="dbrand">{brand}</h1>
+          <span class={`badge ${sc}`}>Score {ad.score}/10</span>
+        </div>
+      </div>
+      <div class="db">
+        <h2 class="dtitle">{ad.title}</h2>
+        {ad.offer && <p class="doffer">{ad.offer}</p>}
+        {ad.valid_until && (
+          <p class="dvalid"><span class="label">Valid until</span> <strong>{ad.valid_until}</strong></p>
+        )}
+      </div>
+      <div class="da">
+        <a href={`brandon://ad/${ad.ad_id}`} class="btn primary">View in BrandON App →</a>
+        <a href={adLibraryUrl} target="_blank" rel="noopener" class="btn secondary">Meta Ad Library ↗</a>
+        <a href={`/zh/${ad.ad_id}`} class="btn ghost">中文版</a>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
 
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>{ad.brand_name} – {ad.offer_summary_en}</title>
-        <meta name="description" content={ad.offer_summary_en} />
-        <script
-            type="application/ld+json"
-            set:html={JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Offer",
-                name: ad.offer_summary_en,
-                description: ad.raw_text,
-                seller: { "@type": "Organization", name: ad.brand_name },
-                validThrough: ad.valid_until || undefined,
-                url: ad.link_url || ad.ad_library_url,
-            })}
-        />
-    </head>
-    <body>
-        <header>
-            <img
-                src={ad.brand_logo_url}
-                alt={ad.brand_name}
-                width="60"
-                height="60"
-            />
-            <h1>{ad.brand_name}</h1>
-        </header>
-        <main>
-            <span>{ad.offer_type?.replace("_", " ")}</span>
-            <h2>{ad.offer_summary_en}</h2>
-            {
-                firstImage && (
-                    <img
-                        src={firstImage}
-                        alt={ad.offer_summary_en}
-                        style="max-width:100%"
-                    />
-                )
-            }
-            <p>{ad.raw_text}</p>
-            {
-                ad.valid_until && (
-                    <p>
-                        Valid until: <strong>{ad.valid_until}</strong>
-                    </p>
-                )
-            }
-            {
-                ad.link_url && (
-                    <a href={ad.link_url} target="_blank">
-                        View Offer →
-                    </a>
-                )
-            }
-            <br />
-            <a href={`brandon://ad/${ad.ad_id}`}>View in BrandON App →</a>
-        </main>
-        <footer>
-            <a href={`/zh/${ad.ad_id}`}>中文版</a> ·
-            <a href={ad.ad_library_url} target="_blank"
-                >Source: Meta Ad Library</a
-            >
-        </footer>
-    </body>
-</html>
+<style>
+  .detail-wrap { max-width:1100px; margin:0 auto; padding:2rem 1.25rem; flex:1; }
+  .back { font-size:.875rem; color:var(--muted); display:inline-block; margin-bottom:1.25rem; transition:color .15s; }
+  .back:hover { color:var(--brand); }
+  .detail-card { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow); max-width:680px; overflow:hidden; }
+  .dh { display:flex; align-items:center; gap:1rem; padding:1.5rem; border-bottom:1px solid var(--border); }
+  .dlogo { width:64px; height:64px; border-radius:12px; object-fit:cover; flex-shrink:0; }
+  .dlogo-ph { width:64px; height:64px; border-radius:12px; background:var(--brand); color:#fff; display:flex; align-items:center; justify-content:center; font-size:1.75rem; font-weight:700; flex-shrink:0; }
+  .dbrand { font-size:1.25rem; font-weight:700; margin-bottom:.4rem; }
+  .badge { font-size:.8rem; font-weight:700; padding:.3rem .75rem; border-radius:999px; }
+  .badge.high { background:#DCFCE7; color:#166534; }
+  .badge.mid  { background:#FEF9C3; color:#854D0E; }
+  .badge.low  { background:#FEE2E2; color:#991B1B; }
+  .db { padding:1.5rem; display:flex; flex-direction:column; gap:1rem; border-bottom:1px solid var(--border); }
+  .dtitle { font-size:1.1rem; font-weight:600; line-height:1.5; }
+  .doffer { font-size:1rem; color:var(--muted); line-height:1.6; }
+  .dvalid { display:flex; align-items:center; gap:.5rem; font-size:.875rem; }
+  .label { background:#F3F4F6; color:var(--muted); padding:.2rem .6rem; border-radius:6px; font-size:.75rem; font-weight:500; }
+  .da { padding:1.25rem 1.5rem; display:flex; flex-wrap:wrap; gap:.75rem; }
+  .btn { display:inline-flex; align-items:center; padding:.6rem 1.1rem; border-radius:8px; font-size:.875rem; font-weight:600; transition:all .15s; }
+  .btn.primary { background:var(--brand); color:#fff; }
+  .btn.primary:hover { background:var(--brand-dark); }
+  .btn.secondary { background:#F3F4F6; color:var(--text); }
+  .btn.secondary:hover { background:#E5E7EB; }
+  .btn.ghost { border:1px solid var(--border); color:var(--muted); }
+  .btn.ghost:hover { border-color:var(--brand); color:var(--brand); }
+</style>
