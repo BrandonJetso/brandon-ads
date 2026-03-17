@@ -11,7 +11,7 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.834846",
+    "scraped_at": "2026-03-17T10:33:20.513257",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=913631961560129"
   },
   {
@@ -26,7 +26,7 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.834224",
+    "scraped_at": "2026-03-17T10:33:20.512675",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=1231401345745657"
   },
   {
@@ -41,23 +41,8 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.833716",
+    "scraped_at": "2026-03-17T10:33:20.511118",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=1294515815860317"
-  },
-  {
-    "ad_id": "4248517892077851",
-    "brand": "PUMA",
-    "title": "=New Deviate NITRO Elite 4 racing shoe with upgraded foam and carbon plate technology.",
-    "offer": "=全新 Deviate NITRO™ Elite 4 跑鞋，採用升級泡棉和碳板技術。",
-    "lang": "zh",
-    "score": "=6",
-    "logo": "=https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/633374165_1185682343648535_5258813578057456210_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pmOL3gDzwnMQ7kNvwFhiqks&_nc_oc=AdkC1piyKeqA8yNG6QwvIFd6DjY_MsTuiL2znSaXcHdLLvuIHCCjXgr4TYg9li6_4os&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=zQ9r_HeKzETn_DwETUHBLw&_nc_ss=8&oh=00_Afz83teNs0auCTzEviskd2CxtqI_aDLggGHZhTv6lhxShA&oe=69BEC463",
-    "image_url": "=",
-    "video_url": "=https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQN1fpS5QHDo0luCgDt8m1bUXpzVgo_Q3wrgBiO04H0lrVSkvWQEEVRViokVy8pFllLLhQpZuQh3cO0S2LSOZBSyZGJEdL55GNnLQW__Yd4RDA.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=VRMeW9-DL4YQ7kNvwGsvgyz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3NTg0ODI3MDg0NDM1ODcsImFzc2V0X2FnZV9kYXlzIjozNCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjE1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f62c6fcdf0e6ba29&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84MzRDNjQ1NDgxODYxODE1MjY0MzU5MDk4MUIyMERCQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVFNDYwQjE1NDE4MzgwODZEQUI2QkVDMTRFNEE1RkJDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaGx_GSldWfBhUCKAJDMywXQC4HrhR64UgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zQ9r_HeKzETn_DwETUHBLw&_nc_ss=8&_nc_zt=28&oh=00_AfygWvMQqmRkqPuova9JMxJKcx_zJm_n85II84jSWvufzg&oe=69BEF5DA",
-    "category": "fashion",
-    "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.832934",
-    "ad_library_url": "=https://www.facebook.com/ads/library/?id=4248517892077851"
   },
   {
     "ad_id": "914165574941691",
@@ -71,8 +56,23 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.832141",
+    "scraped_at": "2026-03-17T10:33:20.510521",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=914165574941691"
+  },
+  {
+    "ad_id": "4248517892077851",
+    "brand": "PUMA",
+    "title": "=New Deviate NITRO Elite 4 racing shoe with upgraded foam and carbon plate technology.",
+    "offer": "=全新 Deviate NITRO™ Elite 4 跑鞋，採用升級泡棉和碳板技術。",
+    "lang": "zh",
+    "score": "=6",
+    "logo": "=https://scontent-phl2-1.xx.fbcdn.net/v/t39.35426-6/633374165_1185682343648535_5258813578057456210_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pmOL3gDzwnMQ7kNvwFhiqks&_nc_oc=AdkC1piyKeqA8yNG6QwvIFd6DjY_MsTuiL2znSaXcHdLLvuIHCCjXgr4TYg9li6_4os&_nc_zt=14&_nc_ht=scontent-phl2-1.xx&_nc_gid=zQ9r_HeKzETn_DwETUHBLw&_nc_ss=8&oh=00_Afz83teNs0auCTzEviskd2CxtqI_aDLggGHZhTv6lhxShA&oe=69BEC463",
+    "image_url": "=",
+    "video_url": "=https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQN1fpS5QHDo0luCgDt8m1bUXpzVgo_Q3wrgBiO04H0lrVSkvWQEEVRViokVy8pFllLLhQpZuQh3cO0S2LSOZBSyZGJEdL55GNnLQW__Yd4RDA.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=VRMeW9-DL4YQ7kNvwGsvgyz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3NTg0ODI3MDg0NDM1ODcsImFzc2V0X2FnZV9kYXlzIjozNCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjE1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f62c6fcdf0e6ba29&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84MzRDNjQ1NDgxODYxODE1MjY0MzU5MDk4MUIyMERCQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVFNDYwQjE1NDE4MzgwODZEQUI2QkVDMTRFNEE1RkJDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaGx_GSldWfBhUCKAJDMywXQC4HrhR64UgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zQ9r_HeKzETn_DwETUHBLw&_nc_ss=8&_nc_zt=28&oh=00_AfygWvMQqmRkqPuova9JMxJKcx_zJm_n85II84jSWvufzg&oe=69BEF5DA",
+    "category": "fashion",
+    "valid_until": "",
+    "scraped_at": "2026-03-17T10:33:20.509294",
+    "ad_library_url": "=https://www.facebook.com/ads/library/?id=4248517892077851"
   },
   {
     "ad_id": "2428822134247207",
@@ -86,7 +86,7 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.830831",
+    "scraped_at": "2026-03-17T10:33:20.508366",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=2428822134247207"
   },
   {
@@ -101,7 +101,7 @@
     "video_url": "=https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNsguAuIEnTyVYedYJvVojcy8Yq-xrPEcT9q8HbW7RUcHrJQdRTueg7aXbS_f9Opc4AHHPkuzKDFL0ISaPSYjezYE7mAGJjqxVi6lhC6jEasA.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=3iDepl3jG5kQ7kNvwGdeIJ6&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIwMzE3OTM2MTA3MDk5NjgsImFzc2V0X2FnZV9kYXlzIjo1LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=edf5c78b0fab6b1d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84MjQwQzZBRTc4MjA0OTNEQjRCMzk1QjAyOEYwOURCRF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzI4NDk2NDEwNTc5OEM2Mzc5QjQ1Qzc5NTA0MUM5MDlGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACag7-KG-vmbBxUCKAJDMywXQC4AAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zQ9r_HeKzETn_DwETUHBLw&_nc_ss=8&_nc_zt=28&oh=00_AfwX3rcg_-fFDggu2UkBHPCgwm6qcybVC6oDZcy_HchSoA&oe=69BECCA2",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.830240",
+    "scraped_at": "2026-03-17T10:33:20.506971",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=1665664431442815"
   },
   {
@@ -116,7 +116,7 @@
     "video_url": "=https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQN1fpS5QHDo0luCgDt8m1bUXpzVgo_Q3wrgBiO04H0lrVSkvWQEEVRViokVy8pFllLLhQpZuQh3cO0S2LSOZBSyZGJEdL55GNnLQW__Yd4RDA.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=VRMeW9-DL4YQ7kNvwGsvgyz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3NTg0ODI3MDg0NDM1ODcsImFzc2V0X2FnZV9kYXlzIjozNCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjE1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f62c6fcdf0e6ba29&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84MzRDNjQ1NDgxODYxODE1MjY0MzU5MDk4MUIyMERCQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVFNDYwQjE1NDE4MzgwODZEQUI2QkVDMTRFNEE1RkJDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaGx_GSldWfBhUCKAJDMywXQC4HrhR64UgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zQ9r_HeKzETn_DwETUHBLw&_nc_ss=8&_nc_zt=28&oh=00_AfygWvMQqmRkqPuova9JMxJKcx_zJm_n85II84jSWvufzg&oe=69BEF5DA",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.829376",
+    "scraped_at": "2026-03-17T10:33:20.506319",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=782535428231893"
   },
   {
@@ -131,7 +131,7 @@
     "video_url": "=https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNsguAuIEnTyVYedYJvVojcy8Yq-xrPEcT9q8HbW7RUcHrJQdRTueg7aXbS_f9Opc4AHHPkuzKDFL0ISaPSYjezYE7mAGJjqxVi6lhC6jEasA.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=3iDepl3jG5kQ7kNvwGdeIJ6&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIwMzE3OTM2MTA3MDk5NjgsImFzc2V0X2FnZV9kYXlzIjo1LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=edf5c78b0fab6b1d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84MjQwQzZBRTc4MjA0OTNEQjRCMzk1QjAyOEYwOURCRF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzI4NDk2NDEwNTc5OEM2Mzc5QjQ1Qzc5NTA0MUM5MDlGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACag7-KG-vmbBxUCKAJDMywXQC4AAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zQ9r_HeKzETn_DwETUHBLw&_nc_ss=8&_nc_zt=28&oh=00_AfwX3rcg_-fFDggu2UkBHPCgwm6qcybVC6oDZcy_HchSoA&oe=69BECCA2",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.829027",
+    "scraped_at": "2026-03-17T10:33:20.504377",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=936846468924184"
   },
   {
@@ -146,7 +146,7 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.827942",
+    "scraped_at": "2026-03-17T10:33:20.503801",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=1238044528304501"
   },
   {
@@ -161,7 +161,7 @@
     "video_url": "=https://video-phl2-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQN1fpS5QHDo0luCgDt8m1bUXpzVgo_Q3wrgBiO04H0lrVSkvWQEEVRViokVy8pFllLLhQpZuQh3cO0S2LSOZBSyZGJEdL55GNnLQW__Yd4RDA.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=video-phl2-1.xx.fbcdn.net&_nc_ohc=VRMeW9-DL4YQ7kNvwGsvgyz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3NTg0ODI3MDg0NDM1ODcsImFzc2V0X2FnZV9kYXlzIjozNCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjE1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f62c6fcdf0e6ba29&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84MzRDNjQ1NDgxODYxODE1MjY0MzU5MDk4MUIyMERCQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVFNDYwQjE1NDE4MzgwODZEQUI2QkVDMTRFNEE1RkJDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaGx_GSldWfBhUCKAJDMywXQC4HrhR64UgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=zQ9r_HeKzETn_DwETUHBLw&_nc_ss=8&_nc_zt=28&oh=00_AfygWvMQqmRkqPuova9JMxJKcx_zJm_n85II84jSWvufzg&oe=69BEF5DA",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.826533",
+    "scraped_at": "2026-03-17T10:33:20.502700",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=4557944847827603"
   },
   {
@@ -176,7 +176,7 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.826006",
+    "scraped_at": "2026-03-17T10:33:20.500850",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=1237012021917835"
   },
   {
@@ -191,7 +191,7 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.825424",
+    "scraped_at": "2026-03-17T10:33:20.500049",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=1926092167996602"
   },
   {
@@ -206,23 +206,8 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.824777",
+    "scraped_at": "2026-03-17T10:33:20.498638",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=1539581627109346"
-  },
-  {
-    "ad_id": "1835457187157757",
-    "brand": "PUMA",
-    "title": "=New seasonal PUMA sports and fashion products with free shipping and exclusive member benefits.",
-    "offer": "=全新季度PUMA運動及時尚產品，免運費及會員專屬優惠。",
-    "lang": "zh",
-    "score": "=6",
-    "logo": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/584268064_725745109957582_541740302844639347_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NShY9MPdYw4Q7kNvwEDzuw0&_nc_oc=Adkvf6xU8KkCp6ZL_nmaz3sWbidqpqfkYQ3ObpngUYu7Z1nS7Q41lEsXg9P8CDV14tw&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_AfwZMBXibLWsYdRa67iyUVUE1Otk4nUnxXspcoT6Z2a_aA&oe=69BED71C",
-    "image_url": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/583339210_1375642130764381_7028667632923947798_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bw0VtnM2g4IQ7kNvwHroK9r&_nc_oc=AdkHROiOcEoyi1dAy1EmHqhwTG_kdp3j_gq0qEbsAEx5n8-yVA3_3H1O4Kn3T8WtaTk&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_Afw58jmv8ioX4eCTsM5WvieFl0i6qyvfvexYZJtsRoWi6g&oe=69BEDE92",
-    "video_url": "=",
-    "category": "fashion",
-    "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.823883",
-    "ad_library_url": "=https://www.facebook.com/ads/library/?id=1835457187157757"
   },
   {
     "ad_id": "921597240629566",
@@ -236,8 +221,23 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.823601",
+    "scraped_at": "2026-03-17T10:33:20.497525",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=921597240629566"
+  },
+  {
+    "ad_id": "759347450326630",
+    "brand": "PUMA",
+    "title": "=PUMA Tackle Heritage low-top sneaker combining retro style with modern street attitude.",
+    "offer": "=PUMA Tackle Heritage 低筒運動鞋融合復古風格與現代街頭風格。",
+    "lang": "bilingual",
+    "score": "=5",
+    "logo": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/646568248_798785299325230_794559251892124734_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CtrjiRbqaWYQ7kNvwEgcY9-&_nc_oc=AdlqPmKOJeXXTW60OvvSXHmUntsYst8O5Kl2sOTXqyshjjXgAgbUX6bIYcYLLt0OVI4&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_Afz3srik9npC5w6JzjzIf5kneGVvCD3Y1-WpmoPnS3UyUg&oe=69BEF2AC",
+    "image_url": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/647007463_913890851383854_6379105867855772204_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BX3EiuhcvGMQ7kNvwEKKAq7&_nc_oc=AdkYV68DldferkShKN5XhqBW6X2j99kOT_O2UYDc0xwxZ2vYostaHYjNgtMmgdgURdw&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_AfyfgO_M-4R3SO2yhKS0FNBHoSZmZtlcog1Pnq0l3z9ryg&oe=69BED602",
+    "video_url": "=",
+    "category": "fashion",
+    "valid_until": "",
+    "scraped_at": "2026-03-17T10:33:20.496608",
+    "ad_library_url": "=https://www.facebook.com/ads/library/?id=759347450326630"
   },
   {
     "ad_id": "2689303084780737",
@@ -251,7 +251,7 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.823121",
+    "scraped_at": "2026-03-17T10:33:20.496580",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=2689303084780737"
   },
   {
@@ -266,38 +266,8 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.821973",
+    "scraped_at": "2026-03-17T10:33:20.496151",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=1584027789529393"
-  },
-  {
-    "ad_id": "784103714748748",
-    "brand": "PUMA",
-    "title": "=New seasonal sports and fashion products with free shipping and 7-day returns.",
-    "offer": "=全新季度運動及時尚產品，免運費及7日無條件退貨保證。",
-    "lang": "zh",
-    "score": "=6",
-    "logo": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/615568982_2142838889453733_8796318299985911404_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hEmnpt22XyYQ7kNvwFIeLDM&_nc_oc=AdkKq8zyxpb31YHglSuM3G3v3DJZAcm2ZSuCTnbc8MYssRacgcSGTt1kq7uvlDxr4Fo&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_AfwQu6NYy-4JAlqWV6D90pCiErcWDYbJX3MhkFcRlR5n8w&oe=69BEDC3E",
-    "image_url": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/615395073_2127605951316288_1498199143885478753_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=k_UIrSTPN54Q7kNvwGLX6hh&_nc_oc=Adlznzvc1imfNx1iaLV6_z5iUBMnCdcYJFuBs3CuEPQaaXojYeAQ3KnCk413hy1e5Dk&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_AfyIK45m-jCgvdDvGPrG3AxX_RJIUcvwnnfsrivzQfzVvQ&oe=69BEFAA7",
-    "video_url": "=",
-    "category": "fashion",
-    "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.821459",
-    "ad_library_url": "=https://www.facebook.com/ads/library/?id=784103714748748"
-  },
-  {
-    "ad_id": "1135588788597320",
-    "brand": "PUMA",
-    "title": "=New seasonal sports and fashion products with free shipping and member exclusive deals.",
-    "offer": "=全新季度運動及時尚產品，免運費及會員專屬優惠。",
-    "lang": "zh",
-    "score": "=6",
-    "logo": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/587004083_769217216178991_6058621657611027301_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PaziEAMSkNsQ7kNvwE72W8P&_nc_oc=AdkNfFYOOvJ2W9jW1ddkWIAIR25Ee71vnIJ1HVYAkpf6TcVQduG9y9z890U0vcInnPg&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_Afx6nBPf-EYFekOGusF_7TIJW2TnLC_uN3d08EEjU8VP9Q&oe=69BEDED2",
-    "image_url": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/584907489_32879914754940271_2603252650710598248_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dcmRTkSQdxAQ7kNvwHQn1p8&_nc_oc=AdnDvw6g47MPmEwc73Fbmcb3QSS-nwL6QX_pYQdZbdHnNouTobcp4IsHYN8gSaOU_8Q&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_AfwbV2-OAYn3Eax7hWnGbyZKF4FM_XWVBSq-WyVIscB96w&oe=69BECA25",
-    "video_url": "=",
-    "category": "fashion",
-    "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.821217",
-    "ad_library_url": "=https://www.facebook.com/ads/library/?id=1135588788597320"
   },
   {
     "ad_id": "1369862538228467",
@@ -311,23 +281,53 @@
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.820937",
+    "scraped_at": "2026-03-17T10:33:20.495784",
     "ad_library_url": "=https://www.facebook.com/ads/library/?id=1369862538228467"
   },
   {
-    "ad_id": "759347450326630",
+    "ad_id": "1135588788597320",
     "brand": "PUMA",
-    "title": "=PUMA Tackle Heritage low-top sneaker combining retro style with modern street attitude.",
-    "offer": "=PUMA Tackle Heritage 低筒運動鞋融合復古風格與現代街頭風格。",
-    "lang": "bilingual",
-    "score": "=5",
-    "logo": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/646568248_798785299325230_794559251892124734_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CtrjiRbqaWYQ7kNvwEgcY9-&_nc_oc=AdlqPmKOJeXXTW60OvvSXHmUntsYst8O5Kl2sOTXqyshjjXgAgbUX6bIYcYLLt0OVI4&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_Afz3srik9npC5w6JzjzIf5kneGVvCD3Y1-WpmoPnS3UyUg&oe=69BEF2AC",
-    "image_url": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/647007463_913890851383854_6379105867855772204_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BX3EiuhcvGMQ7kNvwEKKAq7&_nc_oc=AdkYV68DldferkShKN5XhqBW6X2j99kOT_O2UYDc0xwxZ2vYostaHYjNgtMmgdgURdw&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_AfyfgO_M-4R3SO2yhKS0FNBHoSZmZtlcog1Pnq0l3z9ryg&oe=69BED602",
+    "title": "=New seasonal sports and fashion products with free shipping and member exclusive deals.",
+    "offer": "=全新季度運動及時尚產品，免運費及會員專屬優惠。",
+    "lang": "zh",
+    "score": "=6",
+    "logo": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/587004083_769217216178991_6058621657611027301_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PaziEAMSkNsQ7kNvwE72W8P&_nc_oc=AdkNfFYOOvJ2W9jW1ddkWIAIR25Ee71vnIJ1HVYAkpf6TcVQduG9y9z890U0vcInnPg&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_Afx6nBPf-EYFekOGusF_7TIJW2TnLC_uN3d08EEjU8VP9Q&oe=69BEDED2",
+    "image_url": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/584907489_32879914754940271_2603252650710598248_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dcmRTkSQdxAQ7kNvwHQn1p8&_nc_oc=AdnDvw6g47MPmEwc73Fbmcb3QSS-nwL6QX_pYQdZbdHnNouTobcp4IsHYN8gSaOU_8Q&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_AfwbV2-OAYn3Eax7hWnGbyZKF4FM_XWVBSq-WyVIscB96w&oe=69BECA25",
     "video_url": "=",
     "category": "fashion",
     "valid_until": "",
-    "scraped_at": "2026-03-17T10:32:56.820376",
-    "ad_library_url": "=https://www.facebook.com/ads/library/?id=759347450326630"
+    "scraped_at": "2026-03-17T10:33:20.495586",
+    "ad_library_url": "=https://www.facebook.com/ads/library/?id=1135588788597320"
+  },
+  {
+    "ad_id": "784103714748748",
+    "brand": "PUMA",
+    "title": "=New seasonal sports and fashion products with free shipping and 7-day returns.",
+    "offer": "=全新季度運動及時尚產品，免運費及7日無條件退貨保證。",
+    "lang": "zh",
+    "score": "=6",
+    "logo": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/615568982_2142838889453733_8796318299985911404_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hEmnpt22XyYQ7kNvwFIeLDM&_nc_oc=AdkKq8zyxpb31YHglSuM3G3v3DJZAcm2ZSuCTnbc8MYssRacgcSGTt1kq7uvlDxr4Fo&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_AfwQu6NYy-4JAlqWV6D90pCiErcWDYbJX3MhkFcRlR5n8w&oe=69BEDC3E",
+    "image_url": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/615395073_2127605951316288_1498199143885478753_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=k_UIrSTPN54Q7kNvwGLX6hh&_nc_oc=Adlznzvc1imfNx1iaLV6_z5iUBMnCdcYJFuBs3CuEPQaaXojYeAQ3KnCk413hy1e5Dk&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_AfyIK45m-jCgvdDvGPrG3AxX_RJIUcvwnnfsrivzQfzVvQ&oe=69BEFAA7",
+    "video_url": "=",
+    "category": "fashion",
+    "valid_until": "",
+    "scraped_at": "2026-03-17T10:33:20.495380",
+    "ad_library_url": "=https://www.facebook.com/ads/library/?id=784103714748748"
+  },
+  {
+    "ad_id": "1835457187157757",
+    "brand": "PUMA",
+    "title": "=New seasonal PUMA sports and fashion products with free shipping and exclusive member benefits.",
+    "offer": "=全新季度PUMA運動及時尚產品，免運費及會員專屬優惠。",
+    "lang": "zh",
+    "score": "=6",
+    "logo": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/584268064_725745109957582_541740302844639347_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NShY9MPdYw4Q7kNvwEDzuw0&_nc_oc=Adkvf6xU8KkCp6ZL_nmaz3sWbidqpqfkYQ3ObpngUYu7Z1nS7Q41lEsXg9P8CDV14tw&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_AfwZMBXibLWsYdRa67iyUVUE1Otk4nUnxXspcoT6Z2a_aA&oe=69BED71C",
+    "image_url": "=https://scontent-fco2-1.xx.fbcdn.net/v/t39.35426-6/583339210_1375642130764381_7028667632923947798_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bw0VtnM2g4IQ7kNvwHroK9r&_nc_oc=AdkHROiOcEoyi1dAy1EmHqhwTG_kdp3j_gq0qEbsAEx5n8-yVA3_3H1O4Kn3T8WtaTk&_nc_zt=14&_nc_ht=scontent-fco2-1.xx&_nc_gid=OZ3G3lHuRwmK7U8NyCsoHg&_nc_ss=8&oh=00_Afw58jmv8ioX4eCTsM5WvieFl0i6qyvfvexYZJtsRoWi6g&oe=69BEDE92",
+    "video_url": "=",
+    "category": "fashion",
+    "valid_until": "",
+    "scraped_at": "2026-03-17T10:33:20.494908",
+    "ad_library_url": "=https://www.facebook.com/ads/library/?id=1835457187157757"
   },
   {
     "ad_id": "1451147613212091",
