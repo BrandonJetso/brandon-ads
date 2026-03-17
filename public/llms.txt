@@ -1,0 +1,13 @@
+# BrandON Ads
+> Curated Hong Kong retail promotions, automatically scraped, scored, and published.
+
+## Ad Pages
+- /en/[ad_id]: Individual ad pages with brand name, offer summary, score, and image
+
+## Data Feed
+- /ads.json: Full structured JSON feed of all approved ads
+
+## About
+- Updated automatically via n8n pipeline
+- Source: Meta Ads Library (Hong Kong)
+- Publisher: BrandON (thebrandonapp.com)
