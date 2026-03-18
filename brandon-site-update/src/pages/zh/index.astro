@@ -1,23 +1,23 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import allAdsRaw from '../data/ads.json';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import allAdsRaw from '../../data/ads.json';
 
 const allAds = Array.isArray(allAdsRaw) ? allAdsRaw : [];
-const ads = allAds.filter(ad => ad.lang === 'en');
+const ads = allAds.filter(ad => ad.lang === 'zh');
 const categories = [...new Set(ads.map(ad => ad.category).filter(Boolean))].sort();
 const categoryCounts = {};
 categories.forEach(cat => {
   categoryCounts[cat] = ads.filter(ad => ad.category === cat).length;
 });
 ---
-<BaseLayout title="BrandON — Hong Kong's Best Promotions" description="Curated daily promotions from Hong Kong's top brands" lang="en">
+<BaseLayout title="BrandON — 香港最新優惠" description="每日更新香港商店最新優惠" lang="zh">
 
   <!-- Hero Banner -->
   <section class="hero">
     <div class="hero-inner">
       <img src="/brandon-logo.jpg" alt="BrandON" class="hero-logo" />
-      <h1>Hong Kong's Best Promotions — Curated Daily</h1>
-      <p class="hero-count">{ads.length} promotions available</p>
+      <h1>香港最新優惠 — 每日更新</h1>
+      <p class="hero-count">共 {ads.length} 個優惠</p>
     </div>
   </section>
 
@@ -25,16 +25,16 @@ categories.forEach(cat => {
   <section class="app-banner">
     <div class="app-banner-inner">
       <div class="app-banner-text">
-        <h2>Never Miss a Deal in HK</h2>
-        <p>Download the BrandON app — find, share and enjoy the best promotions in stores near you. Free for Hong Kong shoppers.</p>
+        <h2>立即下載 BrandON App</h2>
+        <p>在附近商店發現最好的優惠，免費使用。尋找、分享及享受香港商店的最佳優惠。</p>
         <div class="app-banner-buttons">
-          <a href="https://apps.apple.com/us/app/brandon-store-jetso-best-buy/id1473556746" class="store-pill" target="_blank" rel="noopener noreferrer">🍎 App Store</a>
-          <a href="https://play.google.com/store/apps/details?id=com.thebrandonapp.v1&pli=1" class="store-pill" target="_blank" rel="noopener noreferrer">▶️ Google Play</a>
-          <a href="https://onelink.to/cxwvn2" class="store-pill store-pill--red" target="_blank" rel="noopener noreferrer">Download Free →</a>
+          <a href="https://apps.apple.com/hk/app/brandon-%E5%95%86%E5%BA%97%E6%8A%98%E6%89%A3-%E8%B3%BC%E7%89%A9%E5%84%AA%E6%83%A0%E8%91%97%E6%95%B8/id1473556746" class="store-pill" target="_blank" rel="noopener noreferrer">🍎 App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.thebrandonapp.v1&hl=zh_HK" class="store-pill" target="_blank" rel="noopener noreferrer">▶️ Google Play</a>
+          <a href="https://onelink.to/cxwvn2" class="store-pill store-pill--red" target="_blank" rel="noopener noreferrer">免費下載 →</a>
         </div>
       </div>
       <div class="app-banner-img">
-        <img src="/brandon-mascot-phone.jpg" alt="BrandON mascot" />
+        <img src="/brandon-mascot-phone.jpg" alt="BrandON 吉祥物" />
       </div>
     </div>
   </section>
@@ -43,7 +43,7 @@ categories.forEach(cat => {
   <section class="filter-section">
     <div class="filter-inner">
       <div class="cat-pills">
-        <button class="cat-pill active" data-cat="all">All <span class="cat-count">{ads.length}</span></button>
+        <button class="cat-pill active" data-cat="all">全部 <span class="cat-count">{ads.length}</span></button>
         {categories.map(cat => (
           <button class="cat-pill" data-cat={cat}>{cat} <span class="cat-count">{categoryCounts[cat]}</span></button>
         ))}
@@ -57,7 +57,7 @@ categories.forEach(cat => {
       <div class="ad-grid">
         {ads.map((ad, i) => (
           <>
-            <a href={`/en/${ad.ad_id}`} class="ad-card" data-cat={ad.category || ''}>
+            <a href={`/zh/${ad.ad_id}`} class="ad-card" data-cat={ad.category || ''}>
               <div class="ad-card-media">
                 {ad.video_url ? (
                   <video src={ad.video_url} muted preload="metadata" class="ad-media"></video>
@@ -82,16 +82,16 @@ categories.forEach(cat => {
                 {ad.category && <span class="cat-tag">{ad.category}</span>}
                 <h3 class="ad-title">{ad.title}</h3>
                 <p class="ad-offer">{ad.offer}</p>
-                {ad.valid_until && <p class="ad-valid">Valid until: {ad.valid_until}</p>}
+                {ad.valid_until && <p class="ad-valid">有效期至：{ad.valid_until}</p>}
               </div>
             </a>
             {(i + 1) % 8 === 0 && i + 1 < ads.length && (
               <div class="mid-feed-banner">
                 <div class="mid-feed-inner">
-                  <img src="/brandon-mascot-running.jpg" alt="BrandON mascot" class="mid-feed-img" />
+                  <img src="/brandon-mascot-running.jpg" alt="BrandON 吉祥物" class="mid-feed-img" />
                   <div class="mid-feed-text">
-                    <span>🛒 More deals in the BrandON app →</span>
-                    <a href="https://onelink.to/cxwvn2" class="mid-feed-btn" target="_blank" rel="noopener noreferrer">Download Free</a>
+                    <span>🛒 BrandON App 有更多優惠 →</span>
+                    <a href="https://onelink.to/cxwvn2" class="mid-feed-btn" target="_blank" rel="noopener noreferrer">免費下載</a>
                   </div>
                 </div>
               </div>
@@ -131,7 +131,6 @@ categories.forEach(cat => {
     font-size: 16px;
   }
 
-  /* App Download Banner */
   .app-banner {
     background: #fff;
     padding: 40px 20px;
@@ -191,7 +190,6 @@ categories.forEach(cat => {
     border-radius: 12px;
   }
 
-  /* Category Filter */
   .filter-section {
     background: #fff;
     padding: 16px 20px;
@@ -249,7 +247,6 @@ categories.forEach(cat => {
     background: rgba(255,255,255,0.25);
   }
 
-  /* Ad Grid */
   .grid-section {
     padding: 32px 20px;
   }
@@ -369,7 +366,6 @@ categories.forEach(cat => {
     margin-top: auto;
   }
 
-  /* Mid-Feed Banner */
   .mid-feed-banner {
     grid-column: 1 / -1;
     background: linear-gradient(135deg, #FFF7ED, #FEF3C7);
